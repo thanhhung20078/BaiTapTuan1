@@ -1,0 +1,39 @@
+Bài 1:
+bool isA = (90 <= grade <= 100);
+Lệnh trên khai báo isA kiểu bool, gán isA bằng giá trị grade khi grade là biến kiểu int và nằm trong khoảng [90;100].
+Lệnh trên có lỗi cú pháp.
+Sửa lại:
+If(grade >= 90 && grade <=100)
+{
+   bool isA = grade;
+}
+Bài 2:
+Đoạn chương trình trên in ra kết quả là 0.6.
+Bài 3:
+Vì đoạn code trên khai báo không đúng kiểu, x và y khai báo hai kiểu khác nhau.
+Bài 4:
+Biểu thức có giá trị bằng 1.
+Bài 5:
+Chương trình sẽ đưa ra cảnh báo phép tính sai vì không thể chia cho 0 và không trả về giá trị.
+Bài 6:
+Trình biên dịch sẽ báo lỗi: invalid operands of types 'int' and 'const char[6] to binary 'operator'.
+Với đoạn main dưới trình biên dịch sẽ không báo lỗi
+Nếu chuyển dòng khai báo x ra ngoài hàm main chương trình sẽ báo lỗi
+Bài 7:
+Đoạn code trên cho ra output:
+0
+0.75
+0.75
+0.75
+Bài 8:
+Chương trình sẽ báo lỗi nếu tên hai biến bị trùng trong một khối lệnh "conflicting".
+Bài 9:
+Chương trình không có lỗi sẽ in ra kết quả bằng "A".
+Khi ở bên trong khối lệnh con, định danh arg1 chỉ tới biến char của arg1 trong khối lệnh con.
+Bài 10:
+Chương trình không có lỗi sẽ in ra kết quả bằng "-1".
+Khi ở bên ngoài khối lệnh con, định danh arg1 chỉ tới biến int của arg1 trong khối lệnh con.
+Bài 11:
+Lệnh trên không có gì sai
+Bài 12:
+Đoạn code đó in ra "Here".
